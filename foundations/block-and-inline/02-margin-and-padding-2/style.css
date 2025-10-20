@@ -6,22 +6,39 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 8px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  font-size: 16px;
+  /* use padding not width */
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  /* margin bottom 8px not 16 */
+  margin-bottom: 8px;
+  /* use padding not of margin */
+  /* 16px for top & bottom, 8px for L & R */
+  padding: 16px 8px;
 }
 
-.button-container {
+.button-container { text-align: center;
   background: #e3f4ff;
+  padding: 8px;
+  /* no need for margin */
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  /* use display block not <p> */
+  display: block;
+  padding: 8px 24px;
+  /* top and bottom 0 L & R auto*/
+  margin: 0 auto;
 }
