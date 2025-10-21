@@ -1,1 +1,9 @@
 /* Add CSS Styling */
+/* there must be no space between the elements*/
+.avatar.proportioned {
+    width: 300px;
+}
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
