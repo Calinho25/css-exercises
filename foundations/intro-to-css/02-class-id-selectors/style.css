@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+p {
+    background-color: pink;
+    font-family: verdana, DejaVu Sans, sans-serif ;
+}
+
+.classname-one {
+    color: blue;
+    font-size: 36px;
+}
+
+.classname-two {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.number-three {
+    font-size: 24px;
+}
