@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+/* instead of body use both class names */
+/* separate them with a comma */
+body {
+    font-size: 28px;
+    font-family: helvetica, "times new roman", "sans serif";
+}
+.one {
+    background-color: black;
+    color: white;
+}
+.two {
+    background-color: yellow;
+}
