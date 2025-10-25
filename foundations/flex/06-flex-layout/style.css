@@ -5,6 +5,30 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+ list-style-type: none;
+}
+
+.header {
+  display: flex;
+}
+/* added to separate the left and right */
+.header .left-links {
+  display: flex;
+  /* splits the left and right up */
+  margin-right: auto;
+  gap: 15px;
+}
+
+.header .right-links {
+  display: flex;
+  margin-right: 35px;
+  gap: 15px;
+  padding: 5px;
 }
 
 img {
@@ -18,9 +42,49 @@ button {
   background: #eee;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(52, 52, 52);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* keeps the footer down*/
+  flex: 1;
+  /* vertical align */  
+  justify-content: center;
+  /* horizontal align */
+  align-items: center;
+  gap: 25px;
+}
+/* ensure you don't use button as a class */
+button {
+padding: 8px 16px;
+cursor: pointer;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.footer {
+  display: flex;
+  background-color: #eee;
+  padding: 5px;
+}
+
+.footer .left-links {
+  display: flex;
+  margin-right: auto;
+  gap: 15px;
+}
+
+.footer .right-links {
+  display: flex;
+  gap: 15px;
+  margin-right: 35px;
 }
