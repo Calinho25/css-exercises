@@ -35,11 +35,13 @@ img {
   width: 600px;
 }
 
+/* ensure you don't use button as a class */
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 a {
@@ -56,12 +58,7 @@ a {
   justify-content: center;
   /* horizontal align */
   align-items: center;
-  gap: 25px;
-}
-/* ensure you don't use button as a class */
-button {
-padding: 8px 16px;
-cursor: pointer;
+  gap: 16px;
 }
 
 input {
